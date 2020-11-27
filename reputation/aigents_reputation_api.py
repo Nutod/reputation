@@ -24,11 +24,11 @@
 Reputation Service wrapper around Aigents Java-based Web Service
 """        
 
-import sys
+# import sys
 import urllib.parse
 import requests
-from reputation.reputation_base_api import *
-#from reputation_base_api import *
+#from reputation.reputation_base_api import *
+from reputation_base_api import ReputationServiceBase
 
 import logging
 logger = logging.getLogger(__name__)	

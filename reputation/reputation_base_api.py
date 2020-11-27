@@ -24,10 +24,10 @@
 Abstract Reputation Service wrapper around
 """        
 
-import os
-import subprocess
-from reputation.reputation_api import *
-#from reputation_api import *
+# import os
+# import subprocess
+# from reputation.reputation_api import *
+from reputation_api import RankingService, RatingService
 
 class ReputationServiceBase(RatingService,RankingService):
 

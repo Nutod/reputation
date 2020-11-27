@@ -25,8 +25,8 @@ import time
 
 import datetime
 from reputation_scenario import reputation_simulate
-from reputation_service_api import *
-from aigents_reputation_api import AigentsAPIReputationService
+from reputation_service_api import PythonReputationService
+# from aigents_reputation_api import AigentsAPIReputationService
 
 def dict_sorted(d):
 	first = True
